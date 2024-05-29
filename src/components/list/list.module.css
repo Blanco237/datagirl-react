@@ -1,0 +1,6 @@
+.body {
+    background: darkblue;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px whitesmoke;
+    list-style: none;
+}

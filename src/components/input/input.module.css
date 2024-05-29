@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label {
+    font-size: 1.2rem;
+}
+
+.input {
+   background-color: white;
+   border: none;
+   padding: 4px 10px;
+   color: black;
+   font-size: 1rem;
+   border-radius: 4px;
+}
+
+.small {
+    border-radius: 4px;
+}
+
+.medium {
+    border-radius: 8px;
+}
+
+.large {
+    border-radius: 12px;
+}

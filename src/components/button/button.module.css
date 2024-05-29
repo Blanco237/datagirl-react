@@ -1,0 +1,18 @@
+.btn {
+    width: 100%;
+    padding: 8px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+
+.btn:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}

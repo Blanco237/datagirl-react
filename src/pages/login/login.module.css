@@ -1,0 +1,24 @@
+.btn {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 1rem;
+  color: red;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 4px;
+
+}
+
+.loading {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
