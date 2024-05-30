@@ -33,6 +33,7 @@ const Login = () => {
         localStorage.setItem('user', JSON.stringify(data.user))
         localStorage.setItem('token', data.token)
         navigate('/dashboard')
+        window.location.reload();
     } catch (err) {
         const message = err.response.data.error;
         setErrMessage(message);

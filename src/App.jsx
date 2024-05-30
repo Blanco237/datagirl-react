@@ -10,6 +10,7 @@ import SignIn from "./pages/signin";
 import Todo from "./pages/todo";
 import Login from "./pages/login";
 import Dashboard from "./pages/dashboard";
+import NewPatient from "./pages/newPatient";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/auth" element={<Login />} />
         <Route path="/todo" element={<Todo />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard/new" element={<NewPatient />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
